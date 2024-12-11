@@ -1,0 +1,30 @@
+/* Personalizando o slideshow */
+.carousel-inner {
+    height: 500px; /* Ajuste a altura do carrossel conforme necessário */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta a imagem para preencher sem distorcer */
+    object-position: center; /* Centraliza a imagem */
+}
+
+/* Estilo do cabeçalho */
+
+.navbar-brand img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Estilo do slide */
+.carousel-item {
+    height: 600px;
+    
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
