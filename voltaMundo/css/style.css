@@ -1,3 +1,94 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5D8C3B;
+    color: white;
+    padding: 60px 0;
+}
+
+header .lead {
+    font-size: 1.2rem;
+}
+
+/* Seções */
+main {
+    padding: 20px;
+}
+
+main img {
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons i {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons i:hover {
+    color: #00aced; /* Exemplo de cor para hover */
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
 /* Personalizando o slideshow */
 .carousel-inner {
     height: 600px; /* Ajuste a altura do carrossel conforme necessário */
@@ -11,17 +102,18 @@
 }
 
 /* Estilo do cabeçalho */
-
 .navbar-brand img {
     width: 50px;
     height: auto;
     margin-right: 10px;
 }
+.navbar{
+    background-color: #02734A;
+}
 
 /* Estilo do slide */
 .carousel-item {
     height: 600px;
-    
 }
 
 .carousel-caption {
@@ -31,7 +123,7 @@
 
 /* Estilo do Footer */
 footer {
-    background-color: #333;
+    background-color: #BF6550;
     color: white;
     padding: 20px 0;
 }
