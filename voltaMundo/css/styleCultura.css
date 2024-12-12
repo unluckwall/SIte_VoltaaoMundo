@@ -1,0 +1,38 @@
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-40%); /* Ajusta o ponto de referência para o meio */
+    background-color: rgba(0, 0, 0, 0.5); /* Opcional: Fundo semitransparente */
+    border-radius: 50%; /* Torna os botões redondos */
+    width: 50px; /* Define largura */
+    height: 50px; /* Define altura */
+    display: flex;
+    justify-content: center; /* Centraliza o ícone dentro do botão */
+    align-items: center; /* Centraliza o ícone dentro do botão */
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 50%; /* Ajusta o tamanho do ícone */
+}
+
+/* Define um tamanho menor para o carrossel */
+.carousel {
+    max-width: 800px; /* Largura máxima */
+    max-height: 400px; /* Altura máxima */
+    margin: 0 auto; /* Centraliza o carrossel horizontalmente */
+    overflow: hidden; /* Garante que o conteúdo não extrapole os limites */
+}
+
+/* Ajusta as imagens dentro do carrossel */
+.carousel-inner img {
+    width: 100%; /* Faz a imagem preencher a largura do carrossel */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem se ajuste ao container */
+}
+
+.video {
+    margin: 0 auto; /* Centraliza o vídeo */
+    display: block; /* Garante que o iframe seja exibido como um bloco */
+}
