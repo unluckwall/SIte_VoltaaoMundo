@@ -6,10 +6,6 @@ body {
     padding: 0;
 }
 
-h1, h2, h5 {
-    color: #333;
-}
-
 /* Cabeçalho */
 header {
     background-color: #5D8C3B;
@@ -50,7 +46,7 @@ main img {
 
 .card-title {
     font-size: 1.2rem;
-    color: #007bff;
+    color: #02734A;
 }
 
 .card-text {
@@ -185,14 +181,12 @@ main img {
 }
 
 /* Seção de Gastronomia */
-h3 {
+h3{
     color: #02734A;
     font-size: 1.8rem;
 }
 
-p {
-    color: #555;
-}
+
 
 /* Imagens das seções */
 img {
